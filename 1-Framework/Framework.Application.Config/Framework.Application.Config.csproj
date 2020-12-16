@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Application\Framework.Application.csproj" />
+    <ProjectReference Include="..\Framework.Common\Framework.Common.csproj" />
+    <ProjectReference Include="..\Framework.Data.EF\Framework.Data.EF.csproj" />
+    <ProjectReference Include="..\Framework.Domain\Framework.Domain.csproj" />
+    <ProjectReference Include="..\Framework.Messaging.NSB\Framework.Messaging.NSB.csproj" />
+  </ItemGroup>
+
+</Project>

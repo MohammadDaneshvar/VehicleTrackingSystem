@@ -1,0 +1,12 @@
+{
+  "GraphIP": "172.16.227.228",
+  "GraphPort": "2480",
+  "GraphQueryTimeout": "100000",
+  "GraphDBName": "TAMPersonRelationV2",
+  "GraphUserName": "reader",
+  "GraphPassword": "reader",
+  "webpages:Version": "3.0.0.0",
+  "webpages:Enabled": "false",
+  "ClientValidationEnabled": "true",
+  "UnobtrusiveJavaScriptEnabled": "true"
+}

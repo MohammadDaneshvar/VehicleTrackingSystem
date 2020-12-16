@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountCharge" xml:space="preserve">
+    <value>شارژ حساب</value>
+  </data>
+  <data name="ActionDetails" xml:space="preserve">
+    <value>اطلاعات جزییات اکشن ها برای محاسبه قیمت</value>
+  </data>
+  <data name="ActionHistories" xml:space="preserve">
+    <value>اطلاعات تاریخچه اکشن</value>
+  </data>
+  <data name="ActionPriceId" xml:space="preserve">
+    <value>شناسه اکشن</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>اطلاعات اشکن ها برای محاسبه قیمت</value>
+  </data>
+  <data name="ActionTypeEnum" xml:space="preserve">
+    <value>نوع اکشن</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>قیمت</value>
+  </data>
+  <data name="CalculateRequestCostQuery" xml:space="preserve">
+    <value>محاسبه قیمت درخواست</value>
+  </data>
+  <data name="ChargeOrganizationStockCommand" xml:space="preserve">
+    <value>شارژ حساب</value>
+  </data>
+  <data name="ContractId" xml:space="preserve">
+    <value>شناسه قرارداد</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>تعداد</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>ایجاد حساب</value>
+  </data>
+  <data name="CreateActionPriceCommand" xml:space="preserve">
+    <value>ایجاد اکشن قیمت</value>
+  </data>
+  <data name="CreatedAt" xml:space="preserve">
+    <value>تاریخ ایجاد</value>
+  </data>
+  <data name="CreateLimitRequestCommand" xml:space="preserve">
+    <value>ایجاد محدودیت درخواست</value>
+  </data>
+  <data name="CreateLoanCommand" xml:space="preserve">
+    <value>ایجاد تسهیلات</value>
+  </data>
+  <data name="CreateOrganizationStockCommand" xml:space="preserve">
+    <value>ایجاد حساب</value>
+  </data>
+  <data name="DeleteActionPriceCommand" xml:space="preserve">
+    <value>حذف اکشن قیمت</value>
+  </data>
+  <data name="DeleteLimitRequestCommand" xml:space="preserve">
+    <value>حذف محدودیت درخواست</value>
+  </data>
+  <data name="Depth" xml:space="preserve">
+    <value>عمق</value>
+  </data>
+  <data name="EditActionPriceCommand" xml:space="preserve">
+    <value>ویرایش اکشن قیمت</value>
+  </data>
+  <data name="EditLimitRequestCommand" xml:space="preserve">
+    <value>ویرایش اطلاعات محدودیت درخواست</value>
+  </data>
+  <data name="EditOrganizationStockCommand" xml:space="preserve">
+    <value>ویرایش اطلاعات حساب</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>تاریخ پایان</value>
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>نام پدر</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>شناسه نوع رابطه ها</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="FirstNationalCode" xml:space="preserve">
+    <value>کد ملی اول</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>از</value>
+  </data>
+  <data name="GazetteId" xml:space="preserve">
+    <value>شناسه آگهی</value>
+  </data>
+  <data name="GetActionPriceQuery" xml:space="preserve">
+    <value>دریافت اطلاعات اکشن</value>
+  </data>
+  <data name="GetAllActionPriceQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات اکشن ها</value>
+  </data>
+  <data name="GetAllContractSidesQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات قرارداد ها</value>
+  </data>
+  <data name="GetAllLegalPersonInformationQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات اشخاص حقوقی</value>
+  </data>
+  <data name="GetAllLegalPersonMemberQuery" xml:space="preserve">
+    <value>دریافت عضوهای حقوقی</value>
+  </data>
+  <data name="GetAllNationalCodeRelationQuery" xml:space="preserve">
+    <value>دریافت رابطه کد ملی ها</value>
+  </data>
+  <data name="GetAllOrganizationStockQuery" xml:space="preserve">
+    <value>دریافت لیست حساب ها</value>
+  </data>
+  <data name="GetAllPersonByPhoneNumberQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات سوژه ها با شماره تلفن</value>
+  </data>
+  <data name="GetAllPersonCompanyQuery" xml:space="preserve">
+    <value>دریافت اطلاعات افراد شرکت</value>
+  </data>
+  <data name="GetAllRealPersonInformationQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات شخص حقیقی</value>
+  </data>
+  <data name="GetAllRealPersonRelationQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات مربوط به روابط با توجه به سطح</value>
+  </data>
+  <data name="GetAllRelativeTypeChildQuery" xml:space="preserve">
+    <value>دریافت اطلاعات نوع روابط</value>
+  </data>
+  <data name="GetAllRelativeTypeParentQuery" xml:space="preserve">
+    <value>دریافت اطلاعات نوع روابط</value>
+  </data>
+  <data name="GetContractByIdQuery" xml:space="preserve">
+    <value>دریافت اطلاعات قرارداد با کد ملی</value>
+  </data>
+  <data name="GetContractInfoQuery" xml:space="preserve">
+    <value>دریافت اطلاعات قرارداد با شناسه قرارداد</value>
+  </data>
+  <data name="GetFamilyRelationQuery" xml:space="preserve">
+    <value>دریافت رابطه خانوادگی</value>
+  </data>
+  <data name="GetGazetteInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات آگهی</value>
+  </data>
+  <data name="GetGazettePersonInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات افراد در آگهی</value>
+  </data>
+  <data name="GetLegalPersonGazetteQuery" xml:space="preserve">
+    <value>دریافت لیست اطلاعات اشخاص حقوقی در آگهی</value>
+  </data>
+  <data name="GetLegalPersonInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات شخص حقوقی</value>
+  </data>
+  <data name="GetLegalPersonLastManagerQuery" xml:space="preserve">
+    <value>دریافت اطلاعات آخرین شخص حقوقی</value>
+  </data>
+  <data name="GetLegalPersonNationalCodeQuery" xml:space="preserve">
+    <value>دریافت شناسه ملی</value>
+  </data>
+  <data name="GetLoanFullInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات کامل تسهیلات</value>
+  </data>
+  <data name="GetLoanPersonOfContractQuery" xml:space="preserve">
+    <value>دریافت اطلاعات شخص مرتبط با تسهیلات</value>
+  </data>
+  <data name="GetOrganizationStockQuery" xml:space="preserve">
+    <value>دریافت اطلاعات حساب</value>
+  </data>
+  <data name="GetPersonAddressQuery" xml:space="preserve">
+    <value>دریافت اطلاعات آدرس</value>
+  </data>
+  <data name="GetPersonBankAccountInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات حساب شخص</value>
+  </data>
+  <data name="GetPersonFullName" xml:space="preserve">
+    <value>دریافت نام شخص حقیقی </value>
+  </data>
+  <data name="GetPersonLoanInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات شخص مرتبط با تسهیلات</value>
+  </data>
+  <data name="GetPersonPhoneNumberQuery" xml:space="preserve">
+    <value>دریافت شماره تلفن های شخص</value>
+  </data>
+  <data name="GetRealPersonFamilyRelationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات ارتباط خانوادگی</value>
+  </data>
+  <data name="GetRealPersonInformationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات شخص حقیقی</value>
+  </data>
+  <data name="GetRealPersonNationalCodeQuery" xml:space="preserve">
+    <value>دریافت کد ملی</value>
+  </data>
+  <data name="GetRelationQuery" xml:space="preserve">
+    <value>دریافت اطلاعات روابط</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>شناسه اکشن</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>فعال/غیرفعال بودن حساب</value>
+  </data>
+  <data name="IsAdded" xml:space="preserve">
+    <value>افزودن باقی مانده حساب به مبلغ حساب جدید</value>
+  </data>
+  <data name="IsUnLimit" xml:space="preserve">
+    <value>محدود/نامحدود بودن حساب</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="LegalPersonId" xml:space="preserve">
+    <value>شناسه شخص حقوقی</value>
+  </data>
+  <data name="LegalPersonNationalCode" xml:space="preserve">
+    <value>شناسه ملی</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>سطح</value>
+  </data>
+  <data name="MaxDate" xml:space="preserve">
+    <value>تاریخ تا</value>
+  </data>
+  <data name="MaxNegativeCreadit" xml:space="preserve">
+    <value>حداکثر اعتبار منفی</value>
+  </data>
+  <data name="MinDate" xml:space="preserve">
+    <value>تاریخ از</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>نام شخص</value>
+  </data>
+  <data name="NationalCode" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="NationalCodeRelationArguments" xml:space="preserve">
+    <value>آبجکت مربوط به پارامترهای رابطه کد ملی ها</value>
+  </data>
+  <data name="NationalCodes" xml:space="preserve">
+    <value>کدهای ملی</value>
+  </data>
+  <data name="OnlyCalculateCommandPrice" xml:space="preserve">
+    <value>نمایش/عدم نمایش قیمت اکشن</value>
+  </data>
+  <data name="OrganizationId" xml:space="preserve">
+    <value>شناسه سازمان</value>
+  </data>
+  <data name="PermissionsId" xml:space="preserve">
+    <value>شناسه های دسترسی</value>
+  </data>
+  <data name="PersonId" xml:space="preserve">
+    <value>شناسه سوژه</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>تلفن ها</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>قیمت</value>
+  </data>
+  <data name="RealPersonNationalCode" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="RecentHours" xml:space="preserve">
+    <value>ساعات اخیر</value>
+  </data>
+  <data name="RequestCount" xml:space="preserve">
+    <value>تعداد درخواست</value>
+  </data>
+  <data name="RoleId" xml:space="preserve">
+    <value>شناسه نقش</value>
+  </data>
+  <data name="SecondNationalCode" xml:space="preserve">
+    <value>کد ملی دوم</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاریخ شروع</value>
+  </data>
+  <data name="Subscription" xml:space="preserve">
+    <value>آبونمان</value>
+  </data>
+  <data name="SubscriptionCommand" xml:space="preserve">
+    <value>محاسبه آبونمان</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>تا</value>
+  </data>
+</root>

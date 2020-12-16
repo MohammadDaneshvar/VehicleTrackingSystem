@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1-Framework\Framework.Application\Framework.Application.csproj" />
+    <ProjectReference Include="..\..\2-Domain\Vehicle.Domain\Vehicle.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

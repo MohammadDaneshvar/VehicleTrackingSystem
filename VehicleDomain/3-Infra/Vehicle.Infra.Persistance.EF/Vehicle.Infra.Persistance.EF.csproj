@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201215095133_init.cs" />
+    <Compile Remove="Migrations\20201215095133_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215095951_init.cs" />
+    <Compile Remove="Migrations\20201215095951_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215100053_init.cs" />
+    <Compile Remove="Migrations\20201215100053_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215101021_intt.cs" />
+    <Compile Remove="Migrations\20201215101021_intt.Designer.cs" />
+    <Compile Remove="Migrations\20201215101153_init.cs" />
+    <Compile Remove="Migrations\20201215101153_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215101815_init.cs" />
+    <Compile Remove="Migrations\20201215101815_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215102005_init.cs" />
+    <Compile Remove="Migrations\20201215102005_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215113512_init.cs" />
+    <Compile Remove="Migrations\20201215113512_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215113940_init.cs" />
+    <Compile Remove="Migrations\20201215113940_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215114911_init.cs" />
+    <Compile Remove="Migrations\20201215114911_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215125223_init.cs" />
+    <Compile Remove="Migrations\20201215125223_init.Designer.cs" />
+    <Compile Remove="Migrations\20201215160834_init.cs" />
+    <Compile Remove="Migrations\20201215160834_init.Designer.cs" />
+    <Compile Remove="Migrations\20201216052839_init.cs" />
+    <Compile Remove="Migrations\20201216052839_init.Designer.cs" />
+    <Compile Remove="Migrations\20201216060155_init.cs" />
+    <Compile Remove="Migrations\20201216060155_init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Domain\Vehicle.Domain\Vehicle.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
